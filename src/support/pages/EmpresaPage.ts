@@ -15,9 +15,9 @@ export default class CadastroPage extends BasePage {
   async preencherCamposValidos(): Promise<void> {
     await this.bethaElements.getCampoAssunto().click();
     await this.bethaElements.getValorDemo().click();
-    await this.bethaElements.getCampoNome().fill('João Daniel de Liz');
-    await this.bethaElements.getCampoEmail().fill('a@b.com.br');
-    await this.bethaElements.getCampoTelefone().fill('123456789');
+    await this.bethaElements.getCampoNome().fill(faker.person.firstName());
+    await this.bethaElements.getCampoEmail().fill(faker.internet.email());
+    await this.bethaElements.getCampoTelefone().fill(faker.phone.number());
     await this.bethaElements.getCampoTipo().click();
     await this.bethaElements.getValorPrefa().click();
     await this.bethaElements.getCampoCargo().click();
