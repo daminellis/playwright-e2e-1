@@ -1,5 +1,7 @@
 # Playwright E2E
 
+#url que irei usar [![OPENAI](https://openai.com/pt-BR/contact-sales/)]
+
 ## GitHub Actions + SonarCloud
 
 [![Build and Tests](https://github.com/ugioni/playwright-e2e/actions/workflows/node.js.yml/badge.svg?branch=master)](https://github.com/ugioni/playwright-e2e/actions/workflows/node.js.yml)
